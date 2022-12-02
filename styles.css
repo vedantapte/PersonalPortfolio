@@ -76,10 +76,48 @@ body {
 }
 
 #projects {
-  height: 700px;
-  background-color: ghostwhite;
+  height: 100%px;
+  background-color: white;
   display: inline-block;
   width: 100%;
+}
+
+#projectsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#projectOne {
+  float: left;
+  width: 45%;
+  margin-right: 2%;
+  text-align: center;
+}
+
+#sUNHeader {
+  font-size: 30px;
+  margin-top: 0%;
+}
+
+#sUNImage {
+  height: 450px;
+}
+
+#sUNInfo {
+  float: right;
+  font-size: 25px;
+  width: 40%;
+  margin-top: 25%;
+  margin-right: 8%;
+}
+
+#projectTwo {
+  float: left;
+  width: 45%;
+  height: 400px;
+  margin-left: 2%;
+  border: 1px solid green;
 }
 
 #contact {
