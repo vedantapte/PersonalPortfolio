@@ -1,0 +1,176 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis", sans-serif;
+}
+
+.topNavContainer {
+  height: 8%;
+  align-items: center;
+}
+
+.topNav {
+  width: 100%;
+  background-color: antiquewhite;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  height: 9%;
+}
+
+.topNavList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.topNavItem {
+  display: inline-block;
+}
+
+.topNavItem:hover {
+  background-color: white;
+}
+
+.navItemText {
+  padding: 20px;
+  width: 100px;
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#about {
+  background-color: ghostwhite;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 100px;
+  height: 100%;
+  text-align: center;
+}
+
+#headshotContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#headshot {
+  width: 300px;
+  height: 270px;
+  border-radius: 50%;
+}
+
+#bio {
+  width: 50%;
+  font-size: 25px;
+  margin-top: 3%;
+  margin-left: 25%;
+}
+
+#projects {
+  height: 700px;
+  background-color: ghostwhite;
+  display: inline-block;
+  width: 100%;
+}
+
+#contact {
+  height: 700px;
+  background-color: ghostwhite;
+  display: inline-block;
+  width: 100%;
+}
+
+#contactInfoContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#contactInfo {
+  font-size: 25px;
+}
+
+h1 {
+  margin-top: 5%;
+  font-size: 60px;
+  padding: 0;
+  text-align: center;
+  font-weight: 200;
+}
+
+/* https://www.youtube.com/watch?v=_yTW9FvN4N8 */
+/* https://coder-coder.com/display-divs-side-by-side/ */
+
+/* html {
+  scroll-behavior: smooth;
+  scroll-margin-top: 10%;
+}
+
+.topNavContainer {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  border: 1px solid blue;
+}
+
+.topNav {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.topNavList {
+  list-style-type: none;
+  text-align: center;
+}
+
+.topNavItem {
+  display: inline-block;
+  padding: 10px;
+}
+
+.navItemText {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: black;
+}
+
+.contentContainer {
+  border: 1px solid red;
+  width: 100%;
+  margin-top: 5%;
+}
+
+#projects {
+  height: 500px;
+  display: inline-block;
+}
+
+#about {
+  height: 500px;
+  display: inline-block;
+}
+
+#resume {
+  height: 500px;
+  display: inline-block;
+}
+
+#contact {
+  height: 500px;
+  display: inline-block;
+} */
+
+/* https://www.bitdegree.org/learn/css-list-style#:~:text=It%20is%20possible%20to%20remove,bullets%20disappear%20from%20the%20list.&text=Note%3A%20to%20get%20rid%20of,margin%20and%20padding%20to%200. */
+/* https://stackoverflow.com/questions/22642436/how-to-center-navigation-bar-items-css */
