@@ -117,7 +117,25 @@ body {
   width: 45%;
   height: 400px;
   margin-left: 2%;
-  border: 1px solid green;
+}
+
+#sshellHeader {
+  font-size: 30px;
+  margin-top: 0%;
+}
+
+#sshellImage {
+  width: 300px;
+  height: 300px;
+  margin-top: 15%;
+}
+
+#sshellInfo {
+  float: right;
+  font-size: 25px;
+  width: 40%;
+  margin-top: 25%;
+  margin-right: 8%;
 }
 
 #contact {
